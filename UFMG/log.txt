@@ -1,0 +1,12 @@
+Total sequences: 20
+Unique sequences: 20
+Total sequences: 20
+Unique sequences: 20
+Total sequences: 40
+Unique sequences: 26
+Total sequences: 1000
+Unique sequences: 823
+Total sequences: 1000
+Unique sequences: 823
+Total sequences: 1000
+Unique sequences: 823
