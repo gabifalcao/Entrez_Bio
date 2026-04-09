@@ -32,13 +32,14 @@ for record in records:
     if seq not in unique_sequences:
         unique_sequences[seq] = record
 
-total = len(records)
+total = len(records) # para criar um log com o total de sequencias analizadas e de quanto essas foram unicas 
+
 unique = len(unique_sequences)
 
 print(f"Total: {total}")
 print(f"Unique: {unique}")
 
-with open("log.txt", "a") as f:
+with open("log.txt", "w") as f:
     f.write(f"Total sequences: {total}\n")
     f.write(f"Unique sequences: {unique}\n") 
 
