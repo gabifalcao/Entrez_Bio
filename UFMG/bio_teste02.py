@@ -42,7 +42,7 @@ for record in unique_sequences.values():
         "num_features": len(record.features)
     })
 
-with open ("dados", "a") as f:
+with open ("dados", "w") as f:
 
     f.write(f"Dados: {data}")
     
